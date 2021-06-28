@@ -1,0 +1,165 @@
+@media (max-width: 765px) {
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+
+    .main {
+      text-align: center;
+      align-items: center;
+
+      .container-fluid {
+        padding: 7vw 0;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+          font-size: 6.5vw;
+        }
+
+        .row {
+          text-align: center;
+          align-items: center;
+          padding: 0;
+          margin: 0 auto;
+
+          .col-md-4 {
+            padding: 0;
+            margin: 0 auto;
+
+            .card {
+              margin: 5% auto;
+              width: 80vw;
+              height: 80vw;
+
+              img {
+                width: 80vw;
+                height: 40vw;
+              }
+
+              .card-body {
+                #bee {
+                  font-size: 5vw;
+                }
+                .btn {
+                  margin: 2vh 2vw;
+                  width: 25vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .prac {
+      margin: 0;
+      padding: 0;
+
+      .row {
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+
+        .col-md-3 {
+          padding: 0;
+          margin: 0 auto;
+          .card {
+            margin: 5% auto;
+            width: 80vw;
+            height: 80vw;
+
+            img {
+              width: 80vw;
+              height: 40vw;
+            }
+
+            .card-body {
+              .btn {
+                margin: 1.5vh 2vw;
+                width: 25vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 345px) {
+    .container-fluid {
+      .main {
+        h5 {
+          font-size: 5vw;
+        }
+        .container-fluid {
+          .row {
+            .col-md-4 {
+              .card {
+                .card-body {
+                  .btn {
+                    width: 25vw;
+                    max-height: 3.5rem;
+                    margin-bottom: 1px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .card-title {
+      h5 {
+        #bee {
+          font-size: 5vw;
+        }
+      }
+    }
+
+    .h5,
+    h5 {
+      font-size: 6.5vw;
+    }
+  }
+}
+
+@media (max-width: 679px) {
+  .container-fluid {
+    nav {
+      padding: 10px 80px;
+      a {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+
+        #clock {
+          border-top: 1px solid rgba(0, 60, 255, 0.514);
+          border-bottom: 1px solid rgba(0, 60, 255, 0.514);
+        }
+
+        .navbar-brand {
+          padding: 1vw 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron-fluid {
+    .container {
+      h2 {
+        margin-left: 11vw;
+      }
+    }
+    .container-fluid {
+      .row {
+        .col-md-4 {
+          border-right: 0px;
+        }
+      }
+    }
+  }
+}

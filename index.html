@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Resources/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://i.pinimg.com/originals/0f/00/e1/0f00e1fdbdc45f7abeac51108dc6e804.png"
+      type="image/x-icon"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JLZQ7PSFVE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JLZQ7PSFVE");
+    </script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid" style="padding: 0; margin: 0">
+      <!-- Navbar -->
+      <!-- Image and text -->
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <div class="date" id="date"></div>
+        </a>
+        <a class="navbar-brand" href="#">
+          <div class="day" id="day">
+            <p>DAY</p>
+          </div>
+        </a>
+        <a class="navbar-brand" href="#">
+          <div class="clock" id="clock">
+            <p>Time</p>
+          </div>
+        </a>
+      </nav>
+
+      <!--main -->
+      <div class="main">
+        <div class="container-fluid">
+          <h1>Which Lecture You Have Now ?</h1>
+
+          <!-- Cards -->
+          <!-- row 1 -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/Physics.jfif"
+                  class="card-img-top"
+                  alt="Physics"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Physics</h4>
+                  <p class="card-text"></p>
+                  <a
+                    href="http://meet.google.com/wds-tbnn-dcn"
+                    class="btn btn-primary"
+                    role="button"
+                    aria-pressed="true"
+                    >COMP A</a
+                  >
+                  <a
+                    target="_blank"
+                    href="http://meet.google.com/tnr-noru-zeb"
+                    class="btn btn-success"
+                    >COMP B</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/Chemistry.jfif"
+                  class="card-img-top"
+                  alt="Chemistry"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Chemistry</h4>
+                  <p class="card-text"></p>
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/tuv-nwkw-nuj "
+                    class="btn btn-primary"
+                    >COMP A</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/iza-xhrn-krv"
+                    class="btn btn-success"
+                    role="button"
+                    aria-pressed="true"
+                    >COMP B</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/maths.jpg"
+                  class="card-img-top"
+                  alt="Maths"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Maths</h4>
+                  <p class="card-text"></p>
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/pbq-fezq-vwd"
+                    class="btn btn-primary"
+                    >COMP A</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/djf-vxvp-tvr"
+                    class="btn btn-success"
+                    role="button"
+                    aria-pressed="true"
+                    >COMP B</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 2 -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/EG.jpg"
+                  class="card-img-top"
+                  alt="EG"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="eg">Engineering Drawing</h5>
+                  <p class="card-text"></p>
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/ugo-wxjt-bee"
+                    class="btn btn-primary"
+                    role="button"
+                    aria-pressed="true"
+                    >COMP A</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/gjr-osuv-kxs"
+                    class="btn btn-success"
+                    >COMP B</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/C.png"
+                  class="card-img-top"
+                  alt="C Programming"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">C Programming</h4>
+                  <p class="card-text"></p>
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/khw-xbyr-vra"
+                    class="btn btn-primary"
+                    role="button"
+                    aria-pressed="true"
+                    >COMP A</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://meet.google.com/eai-wshp-ogu"
+                    class="btn btn-success"
+                    >COMP B</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./Resources/img/PCE.jpg"
+                  class="card-img-top"
+                  alt="PCE"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">PCE</h3>
+                  <p class="card-text"></p>
+                  <h5 style="color: rgb(121, 121, 121); cursor: not-allowed">
+                    Currently Unavailable
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div
+          class="jumbotron jumbotron-fluid"
+          style="
+            margin: 3rem 0 0 0;
+            background: rgb(125, 198, 250);
+            background: linear-gradient(
+              180deg,
+              rgba(125, 198, 250, 1) 1%,
+              rgba(49, 135, 204, 1) 80%,
+              rgba(56, 136, 201, 1) 100%
+            );
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding: 20px;
+            padding-bottom: 2.5rem;
+            box-shadow: #a4a5a5 0px 0px 10px;
+          "
+        >
+          <div class="container">
+            <h2>Lec-link</h2>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                This site is made specially for FY Computer Engineering Students
+                (2020-2021) of
+                <span style="color: black"
+                  ><b>Datta Meghe College Of Engineering, Airoli.</b></span
+                >
+              </div>
+              <div class="col-md-4">
+                <span style="color: black"><b>Need help?</b></span
+                ><br />
+                <a
+                  href="https://mywa.link/5tx9l8hv"
+                  target="_blank"
+                  style="color: rgb(59, 59, 59)"
+                  >Click here to have a talk with the developer</a
+                >
+              </div>
+              <div class="col-md-4" style="border-right: 0">
+                This is not the official site of Datta Meghe College Of
+                Engineering, Airoli. Students themselves had prepared this site
+                for their convenience. <br />
+                <span style="color: black"> <b> Official Site : </b> </span>
+                <span
+                  ><a href="https://www.dmce.ac.in/" style="color: #000"
+                    >https://www.dmce.ac.in/</a
+                  ></span
+                >
+              </div>
+            </div>
+
+            <!-- back to top -->
+            <a class="top-link hide" href="" id="js-top">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                <path d="M12 6H0l6-6z" />
+              </svg>
+              <span class="screen-reader-text">Back to top</span>
+            </a>
+
+            <!-- TT -->
+            <div id="feedback">
+              <a href="#popup1">Time Table</a>
+            </div>
+
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <div class="div1" style="background: #fff">
+                  <a class="close" href="#">×</a>
+
+                  <div class="content" id="quickenquire">
+                    <h3 style="text-align: center">Time Table</h3>
+
+                    <img src="./Resources/img/TT.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Script -->
+            <script
+              src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+              integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+              crossorigin="anonymous"
+            ></script>
+            <script
+              src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+              crossorigin="anonymous"
+            ></script>
+
+            <script src="./Resources/Js/main.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
